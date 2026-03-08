@@ -71,7 +71,6 @@ const Chatbot = () => {
             exit={{ opacity: 0, y: 20, scale: 0.9 }}
             className="bg-white w-[350px] sm:w-[400px] h-[500px] rounded-[2.5rem] shadow-[0_20px_60px_-15px_rgba(0,0,0,0.3)] flex flex-col overflow-hidden border border-gray-100"
           >
-            {/* Header */}
             <div className="p-6 bg-gradient-to-r from-chai to-amber-700 text-white flex justify-between items-center shadow-lg relative overflow-hidden">
                <HiSparkles className="absolute top-0 right-0 text-white/10 text-9xl -translate-y-12 translate-x-12" />
                <div className="flex items-center gap-3 relative z-10">
@@ -91,7 +90,6 @@ const Chatbot = () => {
                </button>
             </div>
 
-            {/* Messages Area */}
             <div 
               ref={scrollRef}
               className="flex-1 p-6 overflow-y-auto bg-gray-50/50 space-y-4"
@@ -116,7 +114,6 @@ const Chatbot = () => {
               </AnimatePresence>
             </div>
 
-            {/* Input Area */}
             <div className="p-4 bg-white border-t border-gray-100">
               <div className="relative flex items-center">
                 <input
